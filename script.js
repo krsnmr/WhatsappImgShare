@@ -1,10 +1,15 @@
-const button = document.getElementById('waButton');
-let image = document.getElementById('image');
-let imageURL = image.src; // отправление ссылки на картинку
+const button01 = document.getElementById('waButton_01');
+const button02 = document.getElementById('waButton_02');
+let image_01 = document.getElementById('image_01');
+let image_02 = document.getElementById('image_02');
+
+let imageURL1 = image_01.src; // отправление ссылки на картинку
+let imageURL2 = image_02.src;
 
 // let sharehref = `whatsapp://send?text=${encodeURIComponent(imageSrc)}`;
 
-button.setAttribute('href', 'whatsapp://send?text=Обезьяна: ' + encodeURIComponent(imageURL));
+button01.setAttribute('href', 'whatsapp://send?text=Левый поворот: ' + encodeURIComponent(imageURL1));
+button02.setAttribute('href', 'whatsapp://send?text=Правый поворот: ' + encodeURIComponent(imageURL2));
 
 //button.setAttribute('href', sharehref);
 //console.log(button);
