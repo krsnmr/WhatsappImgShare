@@ -6,3 +6,15 @@ img {
     width: 80px;
     margin-bottom: 20px;
 }
+
+.section {
+    padding: 0;
+}
+
+img+a {
+    vertical-align: top;
+}
+
+nav a {
+    padding: 2px 4px;
+}

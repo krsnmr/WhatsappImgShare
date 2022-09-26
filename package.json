@@ -1,0 +1,23 @@
+{
+    "name": "whatsappimgshare",
+    "version": "1.0.0",
+    "description": "Отправка в whatsapp ссылки на картинку",
+    "main": "script.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/krsnmr/WhatsappImgShare.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/krsnmr/WhatsappImgShare/issues"
+    },
+    "homepage": "https://github.com/krsnmr/WhatsappImgShare#readme",
+    "devDependencies": {
+        "grunt": "^1.5.3",
+        "grunt-contrib-jshint": "^3.2.0"
+    }
+}
