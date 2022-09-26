@@ -1,10 +1,10 @@
-const button01 = document.getElementById('waButton_01');
-const button02 = document.getElementById('waButton_02');
-let image_01 = document.getElementById('image_01');
-let image_02 = document.getElementById('image_02');
+﻿var button01 = document.getElementById('waButton_01');
+var button02 = document.getElementById('waButton_02');
+var image_01 = document.getElementById('image_01');
+var image_02 = document.getElementById('image_02');
 
-let imageURL1 = image_01.src; // отправление ссылки на картинку
-let imageURL2 = image_02.src;
+var imageURL1 = image_01.src; // отправление ссылки на картинку
+var imageURL2 = image_02.src;
 
 // let sharehref = `whatsapp://send?text=${encodeURIComponent(imageSrc)}`;
 
