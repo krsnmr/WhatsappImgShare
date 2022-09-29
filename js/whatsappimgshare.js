@@ -10,8 +10,11 @@ var imageURL1 = image_01.src; // отправление ссылки на кар
 var imageURL2 = image_02.src;
 
 var urlPageTurnLeft = location.href.replace(location.pathname, '') + "/pages/page_turn_left.html";
+console.log('location.href', location.href);
+console.log('location.pathname', location.pathname);
+console.log('location.href.replace', location.href.replace(location.pathname, ''));
 
-console.log(urlPageTurnLeft);
+console.log('urlPageTurnLeft', urlPageTurnLeft);
 
 // let sharehref = `whatsapp://send?text=${encodeURIComponent(imageSrc)}`;
 
