@@ -10,22 +10,28 @@ module.exports = function(grunt) {
             }
         },
 
+
+
+        /* объединение */
         concat: {
             options: {
-                separator: ';'
+                separator: '\n\n'
             },
             dist: {
                 src: ['src/**/*.js'],
-                dest: 'dist/<%= pkg.name %>.js'
+                dest: 'js/<%= pkg.name %>.js'
             }
         },
+
+        /* сжатие */
         uglify: {
             options: {
+                mangle: false,
                 banner: '/*! <%= pkg.name %> <%= grunt.template.today("dd-mm-yyyy") %> */\n'
             },
             dist: {
                 files: {
-                    'dist/<%= pkg.name %>.min.js': ['<%= concat.dist.dest %>']
+                    'js/<%= pkg.name %>.min.js': ['js/<%= pkg.name %>.js']
                 }
             }
         },
