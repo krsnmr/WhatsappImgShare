@@ -15,6 +15,10 @@ img+a {
     vertical-align: top;
 }
 
+img+a {
+    color: greenyellow;
+}
+
 nav a {
     padding: 2px 4px;
 }
