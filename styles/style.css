@@ -15,9 +15,11 @@ img+a {
     vertical-align: top;
 }
 
+
+/*
 img>a {
-    color: greenyellow;
-}
+    color: #8a2be2;
+}*/
 
 nav a {
     padding: 2px 4px;
