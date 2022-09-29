@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,27 +10,24 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="styles/main.min.css" />
-  </head>
+</head>
 
-  <body>
+<body>
     <nav>
-      <a href="index.html">Главная</a>
-      <a href="canvas_img.html">Canvas</a>
-      <a href="img_src.html">Dev</a>
+        <a href="index.html">Главная</a>
+        <a href="canvas_img.html">Canvas</a>
+        <a href="img_src.html">Dev</a>
     </nav>
 
     <div class="section">
-      <h4>Отправить ссылку на картинку</h4>
-      <p>
-        При нажатии будет вопрос, кому в ватсапе отправить, надо выбрать и
-        согласиться, в группе появится ссылка при нажатии по которой откроиться
-        картинка в браузере
-      </p>
+        <h4>Отправить ссылку на картинку</h4>
+        <p>
+            При нажатии будет вопрос, кому в ватсапе отправить, надо выбрать и согласиться, в группе появится ссылка при нажатии по которой откроиться картинка в браузере
+        </p>
 
-      <img id="image_01" src="turn_left.png" alt="Левый поворот" />
+        <img id="image_01" src="turn_left.png" alt="Левый поворот" />
 
-      <a id="waButton_01" class="btn btn-success" href=""
-        >Поделиться картинкой в whatsapp (Левый поворот)</a
+        <a id="waButton_01" class="btn btn-success" href="">Поделиться картинкой в whatsapp (Левый поворот)</a
       >
       <a id="waButton_03" class="btn" href="#"
         >Поделиться ссылкой на страницу в whatsapp (Левый поворот)</a
@@ -48,12 +46,22 @@
 
       <br />
 
-      <span id="s1"></span>
-      <br />
-      <br />
-      <span id="s2"></span>
-    </div>
-  </body>
+      <a id="waBtn3" href="pages/page_turn_left.html" >поворот налево (Страница)</a>
 
-  <script src="dist/whatsappimgshare.js"></script>
+        <a href="whatsapp://send?text=The text to share!" data-action="share/whatsapp/share">Share via Whatsapp</a>
+
+        <a href="https://api.whatsapp.com/send?phone=whatsappphonenumber&text=urlencodedtext"></a>
+        <a href="https://wa.me/whatsappphonenumber/?text=urlencodedtext"></a>
+        <a href="whatsapp://send?text=<<HERE GOES THE URL ENCODED TEXT YOU WANT TO SHARE>>" data-action="share/whatsapp/share">Share via Whatsapp</a>
+
+
+        <span id="s1"></span>
+        <br />
+        <br />
+        <span id="s2"></span>
+    </div>
+</body>
+
+<script src="dist/whatsappimgshare.min.js"></script>
+
 </html>

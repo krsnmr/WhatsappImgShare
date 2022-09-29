@@ -15,7 +15,7 @@ img+a {
     vertical-align: top;
 }
 
-img+a {
+img>a {
     color: greenyellow;
 }
 
