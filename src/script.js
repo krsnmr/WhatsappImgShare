@@ -9,7 +9,7 @@ var image_02 = document.getElementById('image_02');
 var imageURL1 = image_01.src; // отправление ссылки на картинку
 var imageURL2 = image_02.src;
 
-var urlPageTurnLeft = location.href + "/pages/page_turn_left.html";
+var urlPageTurnLeft = location.href.replace(location.pathname, '') + "/pages/page_turn_left.html";
 
 console.log(urlPageTurnLeft);
 
