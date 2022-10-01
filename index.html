@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,55 +9,60 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="styles/main.min.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <nav>
-        <a href="index.html">Главная</a>
-        <a href="canvas_img.html">Canvas</a>
-        <a href="img_src.html">Dev</a>
+      <a href="index.html">Главная</a>
+      <a href="canvas_img.html">Canvas</a>
+      <a href="img_src.html">Dev</a>
     </nav>
 
     <div class="section">
-        <h4>Отправить ссылку на картинку</h4>
-        <p>
-            При нажатии будет вопрос, кому в ватсапе отправить, надо выбрать и согласиться, в группе появится ссылка на внутреннюю страницу с картинкой
-        </p>
-
+      <h4>Отправить ссылку на картинку</h4>
+      <p>
+        При нажатии будет вопрос, кому в ватсапе отправить, надо выбрать и согласиться, в группе появится ссылка на внутреннюю страницу с
+        картинкой
+      </p>
+      <div class="img-section clearfix">
         <img id="image_01" src="turn_left.png" alt="Левый поворот" />
 
         <a id="waBtn3" href="#">Поделиться ссылкой на страницу в whatsapp ( поворот)</a>
+        <div class="clearfix"></div>
+      </div>
 
-        <br />
-        <br />
+      <br />
+      <br />
+      <div class="img-section clearfix">
         <img id="image_02" src="turn_right.png" alt="Правый поворот" />
+
         <a id="waBtn4" href="#">Поделиться ссылкой на страницу в whatsapp (Правый поворот)</a>
-        <br />
+      </div>
 
-        <br />
-        <a id="waButton_04" class="btn" href="#">Поделиться ссылкой на страницу в whatsapp (Правый поворот)</a
-    >  
-    <br />
+      <br />
 
-    <br />
+      <br />
 
-    <a id="waButton_01" class="btn btn-success" href="">Поделиться картинкой в whatsapp (Левый поворот)</a
-      ><br /> <br />
-      <a id="waButton_02" class="btn btn-success" href=""
-        >Поделиться картинкой в whatsapp (Правый поворот)</a
-      >
-                
-        <br /> <br />       
+      <a id="waButton_04" class="btn" href="#">Поделиться ссылкой на страницу в whatsapp (Правый поворот)</a>
+      <br />
 
-        <a id="ref_page_turn_left" href="pages/page_turn_left.html"></a>
-        <a id="ref_page_turn_right" href="pages/page_turn_right.html"></a>
-        <span id="s1"></span>
-        <br />
-        <br />
-        <span id="s2"></span>
+      <br />
+
+      <a id="waButton_01" class="btn btn-success" href="">Поделиться картинкой в whatsapp (Левый поворот)</a><br />
+      <br />
+      <a id="waButton_02" class="btn btn-success" href="">Поделиться картинкой в whatsapp (Правый поворот)</a>
+
+      <br />
+      <br />
+
+      <a id="ref_page_turn_left" href="pages/page_turn_left.html"></a>
+      <a id="ref_page_turn_right" href="pages/page_turn_right.html"></a>
+      <span id="s1"></span>
+      <br />
+      <br />
+      <span id="s2"></span>
     </div>
-</body>
+  </body>
 
-<script src="js/whatsappimgshare.js"></script>
-
+  <script src="js/whatsappimgshare.js"></script>
 </html>
