@@ -1,0 +1,52 @@
+body {
+    padding: 20px;
+}
+
+.section {
+    padding: 0;
+}
+
+.section img {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.img-section {
+    border: 2px solid lightgray;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.img-section img {
+    float: left;
+    clear: both;
+}
+
+img+a {
+    vertical-align: top;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+nav a {
+    padding: 2px 4px;
+}
+
+@media screen and (min-width: 600px) {
+    #mobile-share {
+        visibility: hidden;
+        clear: both;
+        float: left;
+        margin: 10px auto 5px 20px;
+        width: 28%;
+        display: none;
+    }
+}
