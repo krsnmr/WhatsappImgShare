@@ -15,10 +15,12 @@ var pageTurnRightUrl = ref2.href;
 var currDate = new Date();
 var d = currDate.toLocaleString();
 
+console.log('текущая дата', d);
+
 button01.setAttribute('href', 'whatsapp://send?text=Левый поворот: на ' + d + ' ' + encodeURIComponent(imageURL1));
 button02.setAttribute('href', 'whatsapp://send?text=Правый поворот: на ' + d + ' ' + encodeURIComponent(imageURL2));
-waBtn3.setAttribute('href', 'whatsapp://send?text=Левый поворот: на' + d + ' ' + encodeURIComponent(pageTurnLeftUrl));
-waBtn4.setAttribute('href', 'whatsapp://send?text=Правый поворот: на' + d + ' ' + encodeURIComponent(pageTurnRightUrl));
+waBtn3.setAttribute('href', 'whatsapp://send?text=Левый поворот: на ' + d + ' ' + encodeURIComponent(pageTurnLeftUrl));
+waBtn4.setAttribute('href', 'whatsapp://send?text=Правый поворот: на ' + d + ' ' + encodeURIComponent(pageTurnRightUrl));
 
 
 

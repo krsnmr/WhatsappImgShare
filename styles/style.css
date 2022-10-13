@@ -1,0 +1,47 @@
+body {
+    padding: 20px;
+}
+
+img {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.section {
+    padding: 0;
+}
+
+.img-section{
+    border: 2px solid lightgray;
+    padding: 10px;
+    border-radius: 3px;
+    
+}
+
+.img-section img{
+    float: left;
+    clear: both;
+}
+
+img+a {
+    vertical-align: top;
+}
+
+.clearfix {
+    overflow: auto;
+  }
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+/*
+img>a {
+    color: #8a2be2;
+}*/
+
+nav a {
+    padding: 2px 4px;
+}
