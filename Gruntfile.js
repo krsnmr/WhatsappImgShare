@@ -5,8 +5,8 @@ module.exports = function(grunt) {
 
         cssmin: {
             build: {
-                src: 'styles/*.css',
-                dest: 'styles/main.min.css'
+                src: 'dist/*.css',
+                dest: 'css/styles.min.css'
             }
         },
 
